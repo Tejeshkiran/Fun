@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/KiranTT/IdeaProjects/practice-framework">
+        <groups>
+            <run>
+                <include name="Smoke">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.Laptop">
+            </class>
+            <class name="tests.Mobile">
+            </class>
+         </classes>
+    </test>
+    <test name="vehical">
+        <groups>
+            <run>
+                <include name="Smoke">
+                </include>
+            </run>
+        </groups>
+        <classes>
+        <class name="tests.Sample2">
+        </class>
+        <class name="tests.sample">
+        </class>
+        </classes>
+    </test>
+</suite>

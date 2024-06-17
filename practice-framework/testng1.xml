@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="tests.Listeners"></listener>
+    </listeners>
+    
+    <test verbose="2" preserve-order="true" name="C:/Users/KiranTT/IdeaProjects/practice-framework">
+        <parameter name="URL" value="Electronics.com"></parameter>
+        <classes>
+            <class name="tests.Laptop">
+                <methods>
+                    <exclude name="Dell.*"/>
+                </methods>
+            </class>
+            <class name="tests.Mobile">
+                <methods>
+                    <include name="apple"/>
+                    <include name="Micharger"/>
+                </methods>
+            </class>
+            <class name="tests.Dataclass"></class>
+        </classes>
+    </test>
+    <test name="module2">
+
+        <parameter name="URL" value="vehicals.com"/>
+         <parameter name="Api" value="https://Vehical.com"/>
+
+        <classes>
+        <class name="tests.Sample2">
+            <methods>
+                <include name="car"/>
+            </methods>
+        </class>
+        <class name="tests.sample">
+        </class>
+        </classes>
+    </test>
+</suite>
