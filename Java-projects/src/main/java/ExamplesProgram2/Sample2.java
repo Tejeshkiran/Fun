@@ -9,6 +9,8 @@ public class Sample2 {
         Main2 m = new Main2();
         m.access();
         System.out.println("New changes");
+        System.out.println("new canges 1");
+        System.out.println("new changes 2");
 
     }
 }
