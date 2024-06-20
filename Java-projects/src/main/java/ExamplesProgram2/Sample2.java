@@ -12,5 +12,7 @@ public class Sample2 {
         System.out.println("new canges 1");
         System.out.println("new changes 2");
 
+        System.out.println("hi");
+
     }
 }
