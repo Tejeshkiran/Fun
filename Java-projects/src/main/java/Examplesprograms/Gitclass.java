@@ -1,7 +1,6 @@
-package tests;
+package Examplesprograms;
 
-public class GitSample1 {
-
+public class Gitclass {
     public static void main(String[] args) {
         System.out.println("hi");
     }
