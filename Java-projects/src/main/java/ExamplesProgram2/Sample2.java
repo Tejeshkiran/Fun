@@ -14,6 +14,11 @@ public class Sample2 {
 
         System.out.println("hi");
         System.out.println("fun");
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e79bb0d5d146e1ad0696cfe7df1622af0e254b6d
 
     }
 }
